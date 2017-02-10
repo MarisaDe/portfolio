@@ -23,6 +23,9 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 
 
  <!--Navbar color-->
@@ -34,15 +37,15 @@
  <style>
  .card {
   background-color: #f4f4f4;
-  width: 50%;
-  margin: 10px auto;
+  width: 60%;
+  max-width: 500px;
+  margin: 5px auto;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
 }
 
 .card-header {
   overflow: hidden;
-  width: 100%;
-  max-height: 500px;
+
 }
 
 .card-header img{
@@ -51,20 +54,20 @@
 
 .card-content {
   width: 85%;
-  margin: 35px auto;
+  margin: 0px auto;
 }
 
 .card-content h3 {
   font-size: 25px;
   margin-bottom: 0;
-  color: #303F9F;
+  color: #5bc193;
   font-family: 'Montserrat', sans-serif;
 }
 
 .card-content h4 {
   font-size: 14px;
   margin-top: 0;
-  color: #FF5252;
+  color: #79cea9;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -97,7 +100,15 @@
   font-size: 2em;
   color: #3F51B5;
 }
+
+
  </style>
+
+<script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+</script>
 <div class = "top"></div>
 	<br>
   <nav>
@@ -118,16 +129,18 @@
 <hr class = "hide-on-small-only">
 
 
-    <body>
+<body>
+<br>
     
+<div class = "container">   
 
     <div class="card">
   <div class="card-header">
     <img src="images/epSS.png"/ class = "materialboxed">
   </div>
   <div class="card-content">
-    <h3>ePortfolio Generator</h3>
-    <h4>Create a website with no code! </h4>
+    <h3 style = "color: #8f96c1">ePortfolio Generator</h3>
+    <h4 style = "color: grey">December 2015</h4>
     <p>A project built using the JavaFX library. It is mostly <b>front-end</b> heavy. Users can make multiple web pages
     and add elements such as images, videos, paragraphs and slideshows. It currently comes with 5 prexisting layouts 
     (made from scratch), 5 color schemes, and 5 font choices. Users can save their work as a JSON file and open it up later.
@@ -136,19 +149,65 @@
   <div class="card-footer">
     <ul>
       <li>
-        <a href="https://github.com/MarisaDe/ePortfolioGenerator"><i class="fa fa-github"></i></a>
+        <a href="https://github.com/MarisaDe/ePortfolioGenerator"><i class="fa fa-github" style = "color:#79cea9"></i></a>
       </li>
     </ul>
   </div>
 </div>
+</div>
+
+</div>
+
+<br><br>
+<div class="card">
+  <div class="card-header">
+    <img src="images/aweb.png"/ class = "materialboxed">
+  </div>
+  <div class="card-content">
+    <h3 style = "color:#9f3568">Client Art Portfolio</h3>
+    <h4 style = "color:grey">December 2016</h4>
+    <p>A website for a client's art portfolio. I used <b>Bootstrap</b> to make sure it was <b>mobile friendly.</b>
+    I also <b>designed the logo</b> using GIMP. The logo in addition to the about picture uses webkit animations to add something
+    a little more artsy.</b> </p>
+    <p>I used Salvatorre to make it have a blog-esque look and LightBox to display a slideshow for the images.</p>
+    <p>Documentation can be found below! </p>
+  </div>
+  <div class="card-footer">
+    <ul>
+      <li>
+        <a href="https://marisade.github.io/portfolio/Documentation/"><i class="fa fa-file-o" style = "color:#79cea9"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
             
 
 
-
-
-
-
-
+<br><br>
+<div class="card">
+  <div class="card-header">
+    <img src="images/rw.png"/ class = "materialboxed">
+  </div>
+  <div class="card-content">
+    <h3 style = "color:#c68733">Running Wild</h3>
+    <h4 style = "color:grey">January 2014</h4>
+    <p>A game created during Global Game Jam in 48 hours. Collaborated with 3 other people to make a game in GameMaker. I was in charge of the object
+    and scenery design. </p><br>
+    <p>Click below to preview game play and/or download!</p>
+    
+  </div>
+  <div class="card-footer">
+    <ul>
+      <li>
+        <a href="http://globalgamejam.org/2014/games/running-wild"><i class="fa fa-file-o" style = "color:#79cea9; display: inline-block; margin-right: 0.5em;"></i></a>
+        <a href="https://www.youtube.com/watch?v=ziErNtoby_Y&feature=youtu.be"><i class="fa fa-youtube" style = "color:#79cea9"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+      
 
     </body>
 
@@ -164,10 +223,5 @@
             </div>
           </div>
         </footer>
-            
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
  
   </html>
