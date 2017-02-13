@@ -17,36 +17,20 @@
 	transform: scale(1.1); 
 }
 
-input::-webkit-input-placeholder {
-color: red !important;
-}
- 
-input:-moz-placeholder { /* Firefox 18- */
-color: red !important;  
-}
- 
-input::-moz-placeholder {  /* Firefox 19+ */
-color: red !important;  
-}
- 
-input:-ms-input-placeholder {  
-color: red !important;  
+::-webkit-input-placeholder {
+   color: red;
 }
 
-textarea::-webkit-input-placeholder {
-color: green !important;
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
 }
- 
-textarea:-moz-placeholder { /* Firefox 18- */
-color: green !important;  
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
 }
- 
-textarea::-moz-placeholder {  /* Firefox 19+ */
-color: green !important;  
-}
- 
-textarea:-ms-input-placeholder {  
-color: green !important;  
+
+:-ms-input-placeholder {  
+   color: red;  
 }
 
 
