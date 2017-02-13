@@ -33,6 +33,17 @@
    color: red;  
 }
 
+/* For the grid images in the portfolio section */
+
+.crop{
+  overflow: hidden;
+}
+.crop img{
+ 
+  height: auto;
+  
+}
+
 
 /*******************************************/
 
