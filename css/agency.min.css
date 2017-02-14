@@ -44,8 +44,6 @@
   
 }
 
-html, body { overflow-x: hidden; }  /*removed white space on mobile!*/
-
 /*******************************************/
 
 .btn-primary.active,.btn-primary:active,.btn-xl.active,.btn-xl:active,.open.dropdown-toggle.btn-primary,.open .dropdown-toggle.btn-xl{
